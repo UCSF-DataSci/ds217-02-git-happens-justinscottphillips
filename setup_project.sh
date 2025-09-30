@@ -22,5 +22,9 @@ Fatima,19,95,Chemistry
 Bruno,21,73,Chemistry
 Hannah,20,82,Economics
 EOF
-echo "Setup complete"
 
+# Create Pythom templates
+echo "Setting up csv..."
+touch src/data_analysis.py
+touch src/data_analysis_functions.py
+echo "Setup complete"
