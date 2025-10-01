@@ -1,3 +1,4 @@
 Number of students: 8
 Average grade: 85.5
-Number of Math students: 1
+Min grade: 73
+Max grade: 95
