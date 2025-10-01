@@ -2,3 +2,9 @@ Number of students: 8
 Average grade: 85.5
 Min grade: 73
 Max grade: 95
+Grade Distribution:
+A: 3
+B: 3
+C: 2
+D: 0
+F: 0
