@@ -53,7 +53,7 @@ def count_math_students(students):
 
 def generate_report(total, average, math_count):
     """Generate report string."""
-    report_string = f"Number of students: {total}\nAverage grade: {average:.1f}\nNumber of Math students: {math_count}\n"
+    report_string = f"Analysis\nNumber of students: {total}\nAverage grade: {average:.1f}\nNumber of Math students: {math_count}\n"
     return report_string
 
 def save_report(report, filename):

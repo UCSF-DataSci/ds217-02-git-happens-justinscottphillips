@@ -78,7 +78,7 @@ def analyze_grade_distribution(grades):
 
 def save_results(results, filename):
     """Save detailed results."""
-    report_string = f"Number of students: {results['num_students']}\nAverage grade: {results['average_grade']:.1f}\nMin grade: {results['min_grade']}\nMax grade: {results['max_grade']}\n"
+    report_string = f"Analysis\nNumber of students: {results['num_students']}\nAverage grade: {results['average_grade']:.1f}\nMin grade: {results['min_grade']}\nMax grade: {results['max_grade']}\n"
     with open(filename, 'w') as file:
         file.write(f"{report_string}")
 
